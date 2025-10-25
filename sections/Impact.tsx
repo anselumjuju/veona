@@ -12,7 +12,7 @@ const Impact = () => {
 
   useGSAP(() => {
     const elements = containerRef.current!.querySelectorAll('.stat-card');
-    elements.forEach((element, index) => {
+    elements.forEach((element) => {
       gsap.fromTo(element, { opacity: 0, y: 100 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out', scrollTrigger: { trigger: element, start: 'top 80%' } });
     });
   });
@@ -22,7 +22,7 @@ const Impact = () => {
       <h2 className='section-title' id='impact-title'>
         Our Impact
       </h2>
-      <p className='impact-lead'>Together, we're creating real change around the world</p>
+      <p className='impact-lead'>Together, we&apos;re creating real change around the world</p>
       <div className='impact-stats'>
         <div className='stat-card'>
           <div className='stat-number'>10,000+</div>

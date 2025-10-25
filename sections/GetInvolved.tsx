@@ -12,7 +12,7 @@ const GetInvolved = () => {
 
   useGSAP(() => {
     const elements = containerRef.current!.querySelectorAll('.option-card');
-    elements.forEach((element, index) => {
+    elements.forEach((element) => {
       gsap.fromTo(element, { opacity: 0, y: 100 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out', scrollTrigger: { trigger: element, start: 'top 80%' } });
     });
   });
@@ -39,7 +39,7 @@ const GetInvolved = () => {
         </div>
         <div className='option-card'>
           <h3>❤ Sponsor a Child</h3>
-          <p>Change a child's life through education and care sponsorship</p>
+          <p>Change a child&apos;s life through education and care sponsorship</p>
           <a href='#contact' className='btn btn-primary'>
             Sponsor
           </a>
