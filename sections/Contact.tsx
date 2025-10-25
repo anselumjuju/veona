@@ -22,12 +22,6 @@ const Contact = () => {
           <p>
             <strong>Email:</strong> contact@veona.org
           </p>
-          <p>
-            <strong>Founder:</strong> Milan (Christofer V.P)
-          </p>
-          <p>
-            <strong>Founded:</strong> 2022
-          </p>
           <p style={{ marginTop: '1.2rem' }}>Connect with us on social media and be part of the global humanitarian movement.</p>
           <p style={{ color: '#f59e0b', fontSize: '1.05rem', marginTop: '1rem' }}>Everyone deserves another chance at life.</p>
         </div>

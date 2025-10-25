@@ -7,10 +7,7 @@ const About = () => {
       <div className='about-content'>
         <div className='about-text'>
           <h3>Our Story</h3>
-          <p>
-            VEONA Foundation is a global humanitarian platform that connects people who want to help with those who need it. Founded by Milan (Christofer V.P) in 2022, VEONA
-            transforms compassion into organized action.
-          </p>
+          <p>VEONA Foundation is a global humanitarian platform that connects people who want to help with those who need it.</p>
           <p>
             <strong>Mission:</strong> To build a global humanitarian network that provides food, education, health, care, and hope by connecting people, technology, and purpose.
           </p>
